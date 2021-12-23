@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cloudnativeaction
+  name: hemanth
 spec:
   selector:
     matchLabels:
-      app: cloudnativeaction-pod
+      app: hemanth-pod
   template:
     metadata:
       labels:
-        app: cloudnativeaction-pod
+        app: hemanth-pod
     spec:
       containers:
       - name: myapp
