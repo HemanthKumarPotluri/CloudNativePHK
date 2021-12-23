@@ -39,11 +39,11 @@ jobs:
       uses: Azure/aks-set-context@v1.1
       with:
         # Azure credentials i.e. output of `az ad sp create-for-rbac --sdk-auth`
-        creds: ${{ secrets.AZURE_CREDENTIALS }} 
+        creds: ${{ secrets.KUBECONFIG }}
         # Resource Group Name
         resource-group: CloudNativeRG
         # AKS Cluster Name
-        cluster-name: phkaks01
+        cluster-name: sidaks01
         
     - name: Kubernetes Deployment
       run: kubectl apply -f deployment.yaml
