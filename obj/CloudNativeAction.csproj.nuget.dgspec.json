@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cloud-native-demos\\CloudNativeAction\\CloudNativeAction\\CloudNativeAction.csproj": {}
+    "D:\\work\\cloud-native-day2\\CloudNativePHK\\CloudNativeAction.csproj": {}
   },
   "projects": {
-    "C:\\cloud-native-demos\\CloudNativeAction\\CloudNativeAction\\CloudNativeAction.csproj": {
+    "D:\\work\\cloud-native-day2\\CloudNativePHK\\CloudNativeAction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cloud-native-demos\\CloudNativeAction\\CloudNativeAction\\CloudNativeAction.csproj",
+        "projectUniqueName": "D:\\work\\cloud-native-day2\\CloudNativePHK\\CloudNativeAction.csproj",
         "projectName": "CloudNativeAction",
-        "projectPath": "C:\\cloud-native-demos\\CloudNativeAction\\CloudNativeAction\\CloudNativeAction.csproj",
-        "packagesPath": "C:\\Users\\adminuser\\.nuget\\packages\\",
-        "outputPath": "C:\\cloud-native-demos\\CloudNativeAction\\CloudNativeAction\\obj\\",
+        "projectPath": "D:\\work\\cloud-native-day2\\CloudNativePHK\\CloudNativeAction.csproj",
+        "packagesPath": "C:\\Users\\phema\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\cloud-native-day2\\CloudNativePHK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adminuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\phema\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +53,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

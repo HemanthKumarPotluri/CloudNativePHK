@@ -21,9 +21,9 @@ jobs:
       uses: Azure/docker-login@v1
       with:
         # Container registry username
-        username: cloudnativeacr01
+        username: hemanthacr01
         # Container registry password
-        password: ${{ secrets.ACR_CREDENTIALS }} 
+        password: ${{ secrets.HEMANTH_ACR_CREDS }} 
         # Container registry server url
         login-server: cloudnativeacr01.azurecr.io
         
@@ -43,7 +43,7 @@ jobs:
         # Resource Group Name
         resource-group: CloudNativeRG
         # AKS Cluster Name
-        cluster-name: sidaks01
+        cluster-name: phkaks01
         
     - name: Kubernetes Deployment
       run: kubectl apply -f deployment.yaml
